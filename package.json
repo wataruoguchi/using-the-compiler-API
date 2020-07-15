@@ -1,0 +1,25 @@
+{
+  "name": "compiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.0.22"
+  },
+  "scripts": {
+    "run:miniCompiler": "ts-node -p src/miniCompiler",
+    "run:simpleTransform": "ts-node -p src/simpleTransform",
+    "run:DtsFromJs": "ts-node -p src/DtsFromJs",
+    "run:reprintSections": "ts-node -p src/reprintSections",
+    "run:traverser": "ts-node -p src/traverser",
+    "run:watcher": "ts-node -p src/watcher",
+    "run:buildSupporter": "ts-node -p src/buildSupporter",
+    "run:moduleResolution": "ts-node -p src/moduleResolution",
+    "run:printAST": "ts-node -p src/printAST",
+    "run:typeChecker": "ts-node -p src/typeChecker"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}

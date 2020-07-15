@@ -1,0 +1,8 @@
+yarn run v1.19.1
+$ ts-node -p src/watcher
+message TS6031: Starting compilation in watch mode...
+
+** We're about to create the program! **
+** We finished making the program! **
+message TS6193: Found 1 error. Watching for file changes.
+Error 1128 : Declaration or statement expected.

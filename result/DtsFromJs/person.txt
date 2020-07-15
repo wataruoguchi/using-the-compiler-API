@@ -1,0 +1,19 @@
+yarn run v1.19.1
+$ ts-node -p src/DtsFromJs sample/person.js
+### JavaScript
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.person = void 0;
+exports.person = {
+    firstName: 'Wataru'
+};
+
+### Type Definition
+
+export var __esModule: boolean;
+export namespace person {
+    export const firstName: string;
+}
+
+Done in 3.45s.

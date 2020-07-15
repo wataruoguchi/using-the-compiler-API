@@ -1,0 +1,6 @@
+yarn run v1.19.1
+$ ts-node -p src/reprintSections sample/employees.ts countEmployees
+### countEmployees
+
+function countEmployees(employees: EmployeeType[]): number;
+Done in 2.14s.

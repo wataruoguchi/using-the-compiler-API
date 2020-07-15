@@ -1,0 +1,6 @@
+yarn run v1.19.1
+$ ts-node -p src/miniCompiler sample/person.ts
+LOG_getPreEmitDiagnostics []
+LOG_emitResult.diagnostics []
+Process exiting with code '0'.
+Done in 3.80s.

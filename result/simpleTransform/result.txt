@@ -1,0 +1,7 @@
+yarn run v1.19.1
+$ ts-node -p src/simpleTransform
+let x: string = 'string'
+{"outputText":"var x = 'string';\n","diagnostics":[]}
+const x: string = 1
+{"outputText":"var x = 1;\n","diagnostics":[]}
+Done in 1.49s.

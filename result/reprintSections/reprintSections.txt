@@ -1,0 +1,12 @@
+yarn run v1.19.1
+$ ts-node -p src/reprintSections src/reprintSections.ts extract
+### extract
+
+/**
+ * Prints out particular nodes from a source file
+ *
+ * @param file a path to a file
+ * @param identifiers top level identifiers available
+ */
+function extract(file: string, identifiers: string[]): void;
+Done in 2.03s.

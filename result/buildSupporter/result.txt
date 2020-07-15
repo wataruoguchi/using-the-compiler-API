@@ -1,0 +1,7 @@
+yarn run v1.19.1
+$ ts-node -p src/buildSupporter
+Emitting sample/employees.ts
+Emitting sample/noType.ts
+Emitting sample/person.ts
+Emitting sample/typing.d.ts
+Emitting sample/ugly.ts
